@@ -26,17 +26,11 @@ const config: StorybookConfig = {
   docs: {
     autodocs: true,
   },
-  viteFinal: async (config) => {
-    return {
-      ...config,
-      plugins: [...(config.plugins || [])],
-      resolve: {
-        ...config.resolve,
-        alias: {
-          ...config.resolve?.alias,
-        },
-      },
+  viteFinal: (config, { configType }) => {
+    if (configType === 'PRODUCTION') {
+      config.base = '05-design-system/'
     }
+    return config
   },
 }
 export default config
