@@ -1,0 +1,5 @@
+import{T as n}from"./index-BZ7ufzMp.js";import"./index-DkGvG02X.js";import"./_commonjsHelpers-CqkleIqs.js";import"./index-BsgkyEk6.js";import"./index-B-vHpnjx.js";const x={title:"Typography/Text",component:n,args:{children:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non nam explicabo et est praesentium, reprehenderit nihil nisi saepe, deserunt iusto molestiae fuga architecto enim qui fugiat, maxime soluta labore laudantium?",size:"md"},argTypes:{size:{options:["xxs","xs","sm","md","lg","xl","2xl","4xl","5xl","6xl","7xl","8xl","9xl"],control:{type:"inline-radio"}}}},e={},r={args:{as:"strong"}};var s,t,o;e.parameters={...e.parameters,docs:{...(s=e.parameters)==null?void 0:s.docs,source:{originalSource:"{}",...(o=(t=e.parameters)==null?void 0:t.docs)==null?void 0:o.source}}};var a,i,m;r.parameters={...r.parameters,docs:{...(a=r.parameters)==null?void 0:a.docs,source:{originalSource:`{
+  args: {
+    as: 'strong'
+  }
+}`,...(m=(i=r.parameters)==null?void 0:i.docs)==null?void 0:m.source}}};const g=["Primary","CustomTag"];export{r as CustomTag,e as Primary,g as __namedExportsOrder,x as default};
